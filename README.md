@@ -1,4 +1,4 @@
-# 03 Module 3 Challenge: Password Generator
+# 03 Password Generator
 
 ## Description
 
@@ -6,7 +6,7 @@ This project is the third challenge from the U of A coding bootcamp. In this pro
 
 This project taught me a lot about JavaScript. I learned a lot about scope and how the placement of variables in the code might cause problems. Furthermore, I have a firmer understanding of how variable placement might be beneficial and make my code easier to read. I also discovered how functions can be built and reused so my code isn't repetitive. I even used recursion on one occasion in this code.
 
-[Password Generator](https://ggorosave.github.io/M3-Challenge/)
+[Password Generator](https://ggorosave.github.io/Password-Generator/)
 
 ![Password Generator](./assets/00%20M3-Challenge%20Screenshot.html.png)
 
