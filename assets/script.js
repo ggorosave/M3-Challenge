@@ -25,12 +25,14 @@ function writePassword() {
     //Asks user for desired password length and displays error message if it is less than 8 or greater than 128
     function getPassLength() {
       passLength = window.prompt("How many characters would you like your password to contain? (Password must contain at least 8 characters)");
+      // Regex that looks for numbers only
       const regex = /[0-9]/;
 
       if (!passLength) {
         // Returns "exit" if user hits Cancel
         return passLength = "exit";
       } else if (!regex.test(passLength)) {
+        // Checks that the user has only input numeric digits and returns an alert if not.
         window.alert("Please enter a whole number between 8 and 128.")
         getPassLength();
       } else if (passLength < 8 || passLength > 128) {
